@@ -10,29 +10,29 @@ public  class SingleObject {
 
     private SingleObject(){
     }
-    //é¥¿æ±‰å¼å•ä¾‹
-    //çº¿ç¨‹ä¸å®‰å…¨
-    //ä¸æ”¯æŒå¤šçº¿ç¨‹ï¼Œç¨³å®šæ€§å·®ï¼Œä¸æ¨è
+    //ÀÁººÊ½-²»°²È«µ¥Àı
+    //Ïß³Ì²»°²È«
+    //²»Ö§³Ö¶àÏß³Ì£¬ÎÈ¶¨ĞÔ²î£¬²»ÍÆ¼ö
 //    public static SingleObject getIntance(){
 //        if(intance ==  null)
 //            return new SingleObject();
 //
 //     return intance;
 //    }
-    //lazyå•ä¾‹
-    //çº¿ç¨‹å®‰å…¨
-    //æ”¯æŒå¤šçº¿ç¨‹ï¼Œæ•ˆç‡è¾ƒä½ï¼Œä¸æ¨è
-//    public static synchronized   SingleObject getIntance(){
+//    ÀÁººÊ½-°²È«µ¥Àı
+//    Ïß³Ì°²È«
+//    Ö§³Ö¶àÏß³Ì£¬Ğ§ÂÊ½ÏµÍ£¬²»ÍÆ¼ö
+//    public static synchronized  SingleObject getIntance(){
 //        if(intance == null)
 //            return  new SingleObject();
 //
 //        return intance;
 //    }
 
-    //JDK1.5ä»¥å
-    //åŒæ£€é”-åŒé‡æ ¡éªŒé”
-    //çº¿ç¨‹å®‰å…¨
-    //æ”¯æŒå¤šçº¿ç¨‹ï¼Œé«˜æ€§èƒ½ï¼Œæ¨è
+    //JDK1.5ÒÔºó
+    //Ë«¼ìËø-Ë«ÖØĞ£ÑéËø
+    //Ïß³Ì°²È«
+    //Ö§³Ö¶àÏß³Ì£¬¸ßĞÔÄÜ£¬ÍÆ¼ö
     private volatile  static SingleObject intance;
 
    public static SingleObject getIntance(){
@@ -44,10 +44,10 @@ public  class SingleObject {
        }
         return intance;
    }
-
-
+//
+//
     public  void showMessage(){
-        System.out.printf("SingleObject^s output");
+        System.out.print("Ë«¼ìËø-Ë«ÖØĞ£ÑéËø:SingleObject^s output");
     }
 
 

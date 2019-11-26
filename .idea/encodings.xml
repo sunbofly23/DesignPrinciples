@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" addBOMForNewFiles="with NO BOM" />
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/design/src/main/java/com/tool/pig/design/Factor/test/adapter/AdapterTest.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/design/src/main/java/com/tool/pig/design/Factor/test/adapter/AudioPlayer.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/design/src/main/java/com/tool/pig/design/Factor/test/adapter/Mp4Player.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/design/src/main/java/com/tool/pig/design/Factor/test/adapter/VlcPlayer.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/design/src/main/java/com/tool/pig/design/Factor/test/builder_food/test.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/design/src/main/java/com/tool/pig/design/Factor/test/single/SingleObject.java" charset="GBK" />
+  </component>
 </project>
